@@ -1,15 +1,37 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import static java.util.Arrays.binarySearch;
+
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
-
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+        System.out.println("Binary Search Algorithm ");
+        int [] arr = {-90, -80, -10, 1,2, 3, 5, 99, 102, 106, 190, 204, 909};
+        int target = -6;
+        // builtin binary search doesnot provide index when the item is not found .
+        int index = binarySearch(arr, target);
+        if(index < 0) {
+            System.out.println("Element not found using built-in binary search.");
+        } else {
+            System.out.println("Element found at index: " + index);
         }
+
+        int targetIndex = userDefinedBinarySearch(arr, target);
+        System.out.println(targetIndex);
+    }
+
+    private static int userDefinedBinarySearch(int[] arr, int target) {
+        int start = 0 ;
+        int end = arr.length-1;
+        while(start <= end){
+            int mid = start + (end-start)/2;
+            if(target < arr[mid]){
+                end = mid -1;
+            }
+            else if(target > arr[mid]){
+                start = mid + 1;
+            }
+            else{
+                return mid;
+            }
+        }
+        return -1;
     }
 }
