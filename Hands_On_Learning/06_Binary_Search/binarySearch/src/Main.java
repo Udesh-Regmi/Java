@@ -5,14 +5,13 @@ public class Main {
         System.out.println("Binary Search Algorithm ");
         int [] arr = {-90, -80, -10, 1,2, 3, 5, 99, 102, 106, 190, 204, 909};
         int target = -6;
-        // It will only work in when the target is in the array otherwise it works differently by seeing where the value could be and give new index in negative
+        // builtin binary search doesnot provide index when the item is not found .
         int index = binarySearch(arr, target);
         if(index < 0) {
             System.out.println("Element not found using built-in binary search.");
         } else {
             System.out.println("Element found at index: " + index);
         }
-
 
         int targetIndex = userDefinedBinarySearch(arr, target);
         System.out.println(targetIndex);

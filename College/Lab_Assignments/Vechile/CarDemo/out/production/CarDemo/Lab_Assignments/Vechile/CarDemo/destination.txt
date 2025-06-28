@@ -1,0 +1,8 @@
+Hello Hi This is source file
+This will be rendered in destination .txt
+
+
+This is demofile if it works or not
+
+
+Exit of file
