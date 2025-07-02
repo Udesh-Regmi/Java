@@ -9,7 +9,7 @@ public class IsOdd {
 
 //         same
 //        if((num &1) ==1){
-//            return true
+//            return true; 
 //        }
 
     }

@@ -11,7 +11,7 @@ Understanding time and space complexity is critical in designing efficient algor
 Time complexity is a **mathematical function** that represents **how the execution time of an algorithm grows** with respect to the **input size `N`**.
 
 > ✅ **It is machine-independent.**  
-> ✅ **It ignores hardware and environment factors.**
+> ✅ **It ignores hardware and environment factors.. **
 
 ---
 

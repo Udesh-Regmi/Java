@@ -10,7 +10,7 @@ public class StringMethods {
         System.out.println(Arrays.toString(str.toCharArray()));  // Converts string into a character array
 
         // Compares two strings for exact match (case-sensitive)
-        System.out.println(str.equals("Hello WElcome to JAva"));  // Returns true or false
+        System.out.println(str.equals("Hello WElcome to Java"));  // Returns true or false, 
 
         // Fetches the character at a specific index
         System.out.println(str.charAt(0));  // Returns 'H'

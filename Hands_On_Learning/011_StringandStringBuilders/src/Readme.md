@@ -20,7 +20,7 @@ public class Main {
         String val2 = "Udesh";
 
         // When two variables are created using the above method, the values go into the string pool
-        // and reference variables point to the same object.
+        // and reference variables point to the same object.. 
 
         // == shows true when two reference variables point to the same object.
         System.out.println(val2 == val1);  // true

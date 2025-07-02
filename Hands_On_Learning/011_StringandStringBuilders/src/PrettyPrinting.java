@@ -12,7 +12,7 @@ public class PrettyPrinting {
         // Using printf for formatted output
         System.out.println("Using printf:");
 
-        // %d - integer, %f - floating-point, %.2f - floating point with 2 decimal places
+        // %d - integer, %f - floating-point, %.2f - floating point with 2 decimal places.
         System.out.printf("Age: %d\n", age);
         System.out.printf("Balance: %.2f\n", balance);  // Rounded to 2 decimal places
 

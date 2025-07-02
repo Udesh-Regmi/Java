@@ -5,7 +5,7 @@ public class StringBuilders {
         // Create an empty StringBuilder
         StringBuilder builder = new StringBuilder();
 
-        // Append strings to builder (mutable - modifies the same object)
+        // Append strings to builder (mutable - modifies the same object). 
         builder.append("Hello");
         builder.append(" ");
         builder.append("World");

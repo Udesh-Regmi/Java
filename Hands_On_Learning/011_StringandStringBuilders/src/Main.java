@@ -6,7 +6,7 @@ public class Main {
 
         // When two variables are created using the above method then the values goes into string pool and refernce variable points to the same object.
 
-        // == shows true when two reference variable points to same object.
+        // == shows true when two reference variable points to same object..
         System.out.println(val2 == val1);
 
         // .equals() method only compares two object values if same return true otherwise false. .

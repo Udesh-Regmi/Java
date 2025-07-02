@@ -6,7 +6,7 @@ public class FindNonRepeteadNumber {
         int[] arr = {1, 2, 3, 4, 6, 4, 3, 2, 1}; // 6 is the non-repeated element
         System.out.println("Non-repeated number: " + unique(arr));
     }
-    // Works only when the repeated is only upto twice times.
+    // Works only when the repeated is only upto twice times.. 
     private static int unique(int[] arr) {
         int unique = 0;
 

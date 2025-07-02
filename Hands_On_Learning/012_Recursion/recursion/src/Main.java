@@ -8,7 +8,7 @@ public class Main {
         // It continues until it reaches a defined stopping condition called the base case.
 
         // When not to use recursion ?
-//      //Use recursion when the problem structure is naturally recursive (e.g., trees,        //graphs, combinatorics). Otherwise, prefer iteration if memory is a concern —         //recursion uses the call stack, and too many calls can lead to                        //StackOverflowError.
+        //Use recursion when the problem structure is naturally recursive (e.g., trees,        //graphs, combinatorics). Otherwise, prefer iteration if memory is a concern —         //recursion uses the call stack, and too many calls can lead to                        //StackOverflowError.
 
         // -----------------------------------------------
         // Why Recursion?
