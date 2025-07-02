@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d085cde-2023-440b-9bcc-d37350a07e79" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../07_Bubble_Sorting/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_Bubble_Sorting/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_Bubble_Sorting/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_Bubble_Sorting/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_Bubble_Sorting/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_Bubble_Sorting/07_Bubble_Sorting.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_Bubble_Sorting/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_Bubble_Sorting/src/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_Binary_Search/binarySearch/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06_Binary_Search/binarySearch/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="5d085cde-2023-440b-9bcc-d37350a07e79" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,9 +13,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2z8hbRKFMsCRyVpn66OrCDscsZ6" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -37,7 +27,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "main",
     "onboarding.tips.debug.path": "/home/udesh/Documents/Java_3rd_sem/Hands_On_Learning/09_Insertion_Sorting/src/Main.java"
   }
 }]]></component>
